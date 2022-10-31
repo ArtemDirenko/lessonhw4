@@ -1,0 +1,44 @@
+.father{
+    width: 600px;
+    height: 750px;
+    background: saddlebrown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child_A{
+    width: 100%;
+    height: 40%;
+    background:green;
+
+}
+.child_B{
+    width: 70%;
+    height: 60%;
+    background: blue;
+
+}
+.child_C{
+    width: 30%;
+    height: 60%;
+    background: gold;
+
+}
+
+@media screen and (min-width: 0) and (max-width: 750px)
+{
+
+    .child_A{
+        height: 25%;
+    }
+    .child_B{
+        width: 100%;
+        height: 50%;
+
+    }
+    .child_C{
+        width: 100%;
+        height: 25%;
+
+    }
+}
